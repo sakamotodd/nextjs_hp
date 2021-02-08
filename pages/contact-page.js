@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import Image from 'next/image';
 
-const Context = () => {
+export default function Contact(){
   return (
     <Layout title="Context">
       <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
@@ -72,4 +72,4 @@ const Context = () => {
   );
 };
 
-export default Context;
+
